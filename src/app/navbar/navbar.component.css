@@ -1,0 +1,10 @@
+
+nav.back{
+background-color: var(--second-color) !important;
+color: #fff;
+z-index: 999;
+}
+.active{
+  background-color: var(--main-color);
+}
+

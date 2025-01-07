@@ -1,0 +1,31 @@
+.line{
+  width: 80px;
+  height: 4px;
+  background-color: black;
+}
+.star-icon{
+  color: black;
+}
+section h2{
+  margin-top: 50px;
+}
+.caption{
+  background-color: rgba(26, 188, 156, 0.8);
+  opacity: 0;
+  transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -ms-transition: opacity .5s;
+  -o-transition: opacity .5s;
+}
+.card:hover .caption{
+opacity: 1;
+
+}
+.caption .icon{
+  font-size: 100px;
+}
+.img{
+  width: 600px;
+}
+

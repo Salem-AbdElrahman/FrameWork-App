@@ -1,0 +1,21 @@
+<section class="section pt-3">
+  <h2 class="text-uppercase mb-3 fs-1 fw-bolder text-center ">contact component</h2>
+  <div class="star d-flex align-items-center justify-content-center text-white mb-3">
+    <span class="line me-3"></span>
+    <span class="star-icon">
+      <i class="fa-solid fa-star"></i>
+    </span>
+    <span class="line ms-3"></span>
+  </div>
+  <form class="w-50 p-3 mx-auto mt-5">
+    <label for="userName" [class.__top]="!userData" class="position-relative top-0" >username:</label>
+    <input type="text" id="userName" placeholder="username" name="username" class="form-control border-0 border-bottom py-3 position-relative" [(ngModel)]="userData" >
+    <label for="userAge" [class.__top]="!userAge" class="position-relative top-0" >userage:</label>
+    <input type="text" id="userAge" placeholder="userAge" name="userAge" class="form-control border-0 border-bottom py-3 position-relative" [(ngModel)]="userAge">
+    <label for="userEmail" [class.__top]="!userEmail" class="position-relative top-0" >useremail:</label>
+    <input type="text" id="userEmail" placeholder="useremail" name="useremail" class="form-control border-0 border-bottom py-3 position-relative" [(ngModel)]="userEmail">
+    <label for="password" [class.__top]="!userPass" class="position-relative top-0" >password:</label>
+    <input type="text" id="password" placeholder="password" name="password" class="form-control border-0 border-bottom py-3 position-relative"  [(ngModel)]="userPass">
+    <button class="btn mt-4 text-white">send message</button>
+  </form>
+</section>

@@ -1,0 +1,16 @@
+.home
+{
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 100px 0;
+}
+.container img
+{
+  width: 250px;
+  margin-bottom: 20px;
+}
+.line{
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+}

@@ -1,0 +1,12 @@
+.about{
+  background-color: var(--main-color);
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+}
+.line{
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+}
+
